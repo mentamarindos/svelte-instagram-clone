@@ -1,15 +1,13 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
+  export let url = "";
+  
+  import { Router, Link, Route } from "svelte-routing";
+  import loginPage from "./pages/login.svelte";
+
 </script>
 
-<main>
-
- <p class="text-center">Svelte</p>
-
-  <div class="card">
-    <Counter />
-  </div>
-
-
-</main>
+<!-- Router  --> 
+<Router url="{url}">
+    <Route path="/login" component="{loginPage}" />
+    <Route path="/" component="{loginPage}" />
+</Router>
