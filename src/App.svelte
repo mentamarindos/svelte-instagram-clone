@@ -1,8 +1,8 @@
 <script>
   export let url = "";
   
-  import { Router, Link, Route } from "svelte-routing";
-  import loginPage from "./pages/login.svelte";
+  import { Router, Link, Route } from "svelte-routing"; 
+  import loginPage from "@/routes/login.svelte"; 
 
 </script>
 
