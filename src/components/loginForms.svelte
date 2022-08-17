@@ -1,8 +1,7 @@
 <script>
 
 let logoURL = 'https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png';
-let username = '';
-let password = '';
+let username = '', password = '';
 
 function submitForm () {
     console.log(username) 
