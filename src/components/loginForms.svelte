@@ -25,7 +25,7 @@ function submitForm () {
                 <input type="password" placeholder="password" bind:value="{password}"
                 class="input input-bordered w-full max-w-xs mt-3" />
 
-                <button class="my-3 btn btn-sm btn-active"> Login </button> 
+                <button class="my-3 text-slate-900 btn btn-sm btn-ghost"> Entrar </button> 
             </div>
         </form>
 
@@ -33,6 +33,6 @@ function submitForm () {
 </div>
 
 <pre class="grid place-items-center mt-2">
-    <a href="/signup">¿No tienes una cuenta? Regístrate</a>
+    <a href="/signup" class="text-slate-200 btn btn-sm btn-active">¿No tienes una cuenta? Regístrate</a>
 </pre>
 </div>
