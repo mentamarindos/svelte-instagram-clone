@@ -1,6 +1,7 @@
 <script>
   import MockupPhone from "@/components/mockupPhone.svelte"; 
   import LoginForm from "@/components/loginForms.svelte"; 
+import { goto } from "@roxi/routify";
 
   let bgULR = 'https://picsum.photos/1000/?blur';
 
@@ -16,7 +17,7 @@
   w-screen 
   place-items-center"> 
 
-    <div class="hidden md:flex">  
+    <div class="hidden md:flex" on:dblclick={()=> $goto('/')}>  
       <MockupPhone /> 
     </div>
     <!-- ... --> 
