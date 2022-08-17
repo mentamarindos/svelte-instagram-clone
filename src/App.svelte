@@ -5,15 +5,12 @@
   
 const config = {
   urlTransform: {
-    apply: url => `/my-base${url}`, //external URL
-    remove: url => url.replace('/my-base', ''), //internal URL
+    apply: url => `/${url}`, //external URL
+    remove: url => url.replace('/', ''), //internal URL
   },
   useHash: true
 }
-
 </script>
 
-<Router 
-{config}
-{routes} 
-/>
+<!-- html  --> 
+<Router {config} {routes} />
