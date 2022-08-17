@@ -1,18 +1,24 @@
 <script>
-
 import MockupPhone from "@/components/mockupPhone.svelte";
 import { url } from "@roxi/routify";
     
+let picture = 'https://cutewallpaper.org/21/dancing-gif-transparent-background/Spongebob-Squarepants-Dancing-Sticker-for-iOS-Android-GIPHY.gif';
+
 </script>
 
 <!-- html  --> 
 <main class="grid mt-10 pt-5 place-items-center"> 
 
-    <h1 class="m-10 text-3xl">Welcome</h1>
+    <div>
+        <img src={picture} alt="meme">
+    </div>
 
-    <nav class="card p-2 m-4">
-        <a href={$url('/login')} >Login</a>
-        <a href={$url('/signup')} >Signup</a>
-    </nav>
+    <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card-body grid place-content-center">
+            <h3 class="text-xl">Nav menu</h3>
+            <a href={$url('/login')} >Login</a>
+            <a href={$url('/signup')} >Signup</a>
+        </div>
+    </div>
 
 </main>
