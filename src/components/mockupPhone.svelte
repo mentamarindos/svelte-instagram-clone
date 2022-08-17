@@ -1,5 +1,5 @@
 <script>
-    let bgURL1 = 'https://picsum.photos/800';
+    let bgURL1 = 'https://picsum.photos/800/?'+(new Date().getTime());
     let bgURL2 = 'https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png';
 </script>
 

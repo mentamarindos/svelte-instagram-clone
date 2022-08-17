@@ -1,0 +1,20 @@
+{
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "mentamarindos"
+      },
+      "creation_time": "2022-08-17T12:44:06.959Z",
+      "description": {
+        "content": "Crear formulario de registro",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "references": [],
+      "title": "Crear formulario de registro"
+    }
+  ],
+  "in-progress": [],
+  "testing": [],
+  "done": []
+}

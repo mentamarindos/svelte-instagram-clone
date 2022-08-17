@@ -1,4 +1,5 @@
 <script>
+import { url } from "@roxi/routify";
 
 let logoURL = 'https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png';
 let username = '', password = '';
@@ -33,6 +34,6 @@ function submitForm () {
 </div>
 
 <pre class="grid place-items-center mt-2">
-    <a href="/signup" class="text-slate-200 btn btn-sm btn-active">¿No tienes una cuenta? Regístrate</a>
+    <a href={$url('/signup')} class="text-slate-200 btn btn-sm btn-active">¿No tienes una cuenta? Regístrate</a>
 </pre>
 </div>

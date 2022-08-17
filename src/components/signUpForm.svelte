@@ -1,54 +1,44 @@
 <script>
+  import { url } from "@roxi/routify";
+  
+  let logoURL = 'https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png';
+  let email = '', password = '', fullName = '';
+  
+  function submitForm () {
+      console.log(email) 
+      console.log(password) 
+  }
+  </script>
+  
+  
+  <!-- html  -->
+  <div>
+  <div class="card w-96 glass shadow-sm"> 
+  
+      <div class="card-body items-center text-center">
 
-console.log("Sign up form")
+        <h1 class="text-slate-900 text-2xl mb-4">Register form</h1>
+        
+          <form on:submit|preventDefault="{submitForm}">
+              <div class="form-control w-full max-w-xs">
+                
+                  <input type="text" placeholder="full name" bind:value="{fullName}"
+                  class="input input-bordered w-full max-w-xs" />
 
-</script>
-
-
-<!-- html --> 
-<div class="m-10">
-
-<input type="text" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" />
-<input type="text" placeholder="Type here" class="input input-bordered input-sm w-full max-w-xs" />
-<input type="text" placeholder="Type here" class="input input-bordered input-md w-full max-w-xs" />
-<input type="text" placeholder="Type here" class="input input-bordered input-lg w-full max-w-xs" />
-
-
-<div class="overflow-x-auto">
-    <table class="table w-full">
-      <!-- head -->
-      <thead>
-        <tr>
-          <th></th>
-          <th>Name</th>
-          <th>Job</th>
-          <th>Favorite Color</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- row 1 -->
-        <tr>
-          <th>1</th>
-          <td>Cy Ganderton</td>
-          <td>Quality Control Specialist</td>
-          <td>Blue</td>
-        </tr>
-        <!-- row 2 -->
-        <tr>
-          <th>2</th>
-          <td>Hart Hagerty</td>
-          <td>Desktop Support Technician</td>
-          <td>Purples</td>
-        </tr>
-        <!-- row 3 -->
-        <tr>
-          <th>3</th>
-          <td>Brice Swyre</td>
-          <td>Tax Accountant</td>
-          <td>Red</td>
-        </tr>
-      </tbody>
-    </table>
+                  <input type="text" placeholder="email" bind:value="{email}"
+                  class="input input-bordered w-full max-w-xs my-4" />
+  
+                  <input type="password" placeholder="password" bind:value="{password}"
+                  class="input input-bordered w-full max-w-xs" />
+  
+                  <button class="my-3 text-slate-900 btn btn-sm btn-ghost"> Register </button> 
+              </div>
+          </form>
+  
+      </div>
   </div>
-
-</div>
+  
+  <pre class="grid place-items-center mt-2">
+      <a href={$url('/login')} class="text-slate-200 btn btn-sm btn-active">¿Ya tienes una cuenta? Inicia sesión</a>
+  </pre>
+  </div>

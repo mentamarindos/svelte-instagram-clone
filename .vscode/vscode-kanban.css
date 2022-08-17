@@ -1,0 +1,52 @@
+/* background */
+body {
+    background-color: #232323;   /* this is vscode's main background color */
+  }
+  
+  /* swimlanes */
+  #vsckb-card-todo,
+  #vsckb-card-in-progress,
+  #vsckb-card-testing,
+  #vsckb-card-done {
+    border-color: #444;
+  }
+  #vsckb-card-todo .card-header,
+  #vsckb-card-in-progress .card-header,
+  #vsckb-card-testing .card-header,
+  #vsckb-card-done .card-header {
+    background-color: #232323 !important;
+    color: #fff !important;
+    padding: 0.3em 1em !important;
+  }
+  #vsckb-card-todo .card-body,
+  #vsckb-card-in-progress .card-body,
+  #vsckb-card-testing .card-body,
+  #vsckb-card-done .card-body {
+    background-color: #232323 !important;
+    color: #fff !important;
+  }
+  #vsckb-card-todo .card-header,
+  #vsckb-card-in-progress .card-header,
+  #vsckb-card-testing .card-header,
+  #vsckb-card-done .card-header {
+    padding: 0.3em 1em !important;
+  }
+  
+  /* cards */
+  .vsckb-kanban-card {
+    background-color: #444 !important;
+    border-color: rgba(44, 143, 157, 0.25) !important;
+  }
+  .vsckb-kanban-card:hover {
+    border-color: rgba(44, 143, 157, 1) !important;
+  }
+  .vsckb-kanban-card .vsckb-kanban-card-info {
+    background-color: #333 !important;
+    color: #fff !important;
+  }
+  .vsckb-kanban-card .vsckb-kanban-card-footer * {
+    color: #fff !important;
+  }
+  .vsckb-kanban-card .vsckb-kanban-card-type {
+    background-color: rgba(44, 143, 157, 0.75) !important;
+  }
