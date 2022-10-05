@@ -1,12 +1,12 @@
 <script>
-import MockupPhone from "@/components/mockupPhone.svelte";
+import MockupPhone from "@/components/misc/mockupPhone.svelte";
 import { url } from "@roxi/routify";
     
 let picture = 'https://cutewallpaper.org/21/dancing-gif-transparent-background/Spongebob-Squarepants-Dancing-Sticker-for-iOS-Android-GIPHY.gif';
 
 </script>
 
-<!-- html  --> 
+<!-- template  --> 
 <main class="grid mt-10 pt-5 place-items-center"> 
 
     <div>

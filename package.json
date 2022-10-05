@@ -25,6 +25,7 @@
     "vite": "^3.0.0"
   },
   "dependencies": {
+    "@supabase/supabase-js": "2.0.0-rc.10",
     "daisyui": "^2.20.0"
   }
 }

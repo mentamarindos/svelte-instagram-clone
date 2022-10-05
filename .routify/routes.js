@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.18.8
- * File generated Wed Aug 17 2022 07:07:16 GMT-0600 (hora estándar central)
+ * File generated Tue Oct 04 2022 16:58:28 GMT-0600 (hora estándar central)
  */
 
 export const __version = "2.18.8"
-export const __timestamp = "2022-08-17T13:07:16.417Z"
+export const __timestamp = "2022-10-04T22:58:28.614Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -32,7 +32,7 @@ export const _tree = {
       "name": "feed",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "C:/xampp/htdocs/PROYECTOS/svelte/instaclone/src/pages/feed.svelte",
+      "absolutePath": "C:/xampp/htdocs/PROYECTOS/instaclone/src/pages/feed.svelte",
       "importPath": "../src/pages/feed.svelte",
       "isLayout": false,
       "isReset": false,
@@ -57,7 +57,7 @@ export const _tree = {
       "name": "index",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "C:/xampp/htdocs/PROYECTOS/svelte/instaclone/src/pages/index.svelte",
+      "absolutePath": "C:/xampp/htdocs/PROYECTOS/instaclone/src/pages/index.svelte",
       "importPath": "../src/pages/index.svelte",
       "isLayout": false,
       "isReset": false,
@@ -82,7 +82,7 @@ export const _tree = {
       "name": "login",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "C:/xampp/htdocs/PROYECTOS/svelte/instaclone/src/pages/login.svelte",
+      "absolutePath": "C:/xampp/htdocs/PROYECTOS/instaclone/src/pages/login.svelte",
       "importPath": "../src/pages/login.svelte",
       "isLayout": false,
       "isReset": false,
@@ -107,7 +107,7 @@ export const _tree = {
       "name": "postDetails",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "C:/xampp/htdocs/PROYECTOS/svelte/instaclone/src/pages/postDetails.svelte",
+      "absolutePath": "C:/xampp/htdocs/PROYECTOS/instaclone/src/pages/postDetails.svelte",
       "importPath": "../src/pages/postDetails.svelte",
       "isLayout": false,
       "isReset": false,
@@ -132,7 +132,7 @@ export const _tree = {
       "name": "signup",
       "ext": "svelte",
       "badExt": false,
-      "absolutePath": "C:/xampp/htdocs/PROYECTOS/svelte/instaclone/src/pages/signup.svelte",
+      "absolutePath": "C:/xampp/htdocs/PROYECTOS/instaclone/src/pages/signup.svelte",
       "importPath": "../src/pages/signup.svelte",
       "isLayout": false,
       "isReset": false,

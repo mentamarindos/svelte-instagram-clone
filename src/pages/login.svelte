@@ -1,13 +1,13 @@
 <script>
-import MockupPhone from "@/components/mockupPhone.svelte"; 
-import LoginForm from "@/components/loginForms.svelte"; 
+import MockupPhone from "@/components/misc/mockupPhone.svelte"; 
+import LoginForm from "@/components/forms/loginForms.svelte"; 
 import { goto } from "@roxi/routify";
 
-let bgULR = 'https://picsum.photos/1000/?blur';
+let bgULR = 'https://picsum.photos/1000/?blur'; 
 
 </script>
 
-<!-- html  --> 
+<!-- template  --> 
 <div class="container w-full h-screen m-0"> 
 
   <div class="grid 

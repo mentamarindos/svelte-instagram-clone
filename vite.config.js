@@ -11,5 +11,8 @@ export default defineConfig({
     },
   },
   clearScreen: true,
-  appType: 'spa'
+  appType: 'spa',
+  server: {
+
+  }
 })
