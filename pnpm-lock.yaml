@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@roxi/routify': ^2.18.8
-  '@supabase/supabase-js': 2.0.0-rc.10
+  '@supabase/supabase-js': next
   '@sveltejs/vite-plugin-svelte': next
   '@tsconfig/svelte': ^3.0.0
   autoprefixer: ^10.4.7
@@ -17,7 +17,7 @@ specifiers:
   vite: ^3.0.0
 
 dependencies:
-  '@supabase/supabase-js': 2.0.0-rc.10
+  '@supabase/supabase-js': 1.36.0-next.29
   daisyui: 2.31.0_5zjlt5w4ir2cay3te66iu3k3ji
 
 devDependencies:
@@ -130,16 +130,16 @@ packages:
       - supports-color
     dev: true
 
-  /@supabase/functions-js/2.0.0-rc.2:
-    resolution: {integrity: sha512-SSgqdL9NKRwEEEHMRnou0rYdYLdu1e7hsEwsaDr6cycmt5YS002ia8sGnj02ytPmgDk/wv+Y8DMdGd4QfZHAOA==}
+  /@supabase/functions-js/1.4.0-next.5:
+    resolution: {integrity: sha512-y2lPF1+U5e0DbJo3wKbTQsIB+3Vqq3PZ0pOAjt4RhI9MZBl/or88KcAHzBey+lG38NjQtAo9y0yx0r1mZGm8zQ==}
     dependencies:
       cross-fetch: 3.1.5
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@supabase/gotrue-js/2.0.0-rc.9:
-    resolution: {integrity: sha512-lg9PR+6mg6pDucKW6PsxV0rCYkQ0Dyo9nbotCYFIoF5xaanVIKDWaJEi+tQ13l0nQwdPpnGCRZcSbZlZ3+0Z1g==}
+  /@supabase/gotrue-js/1.23.1:
+    resolution: {integrity: sha512-fzr895capqV01PRZCs2rgx9SX78BUysl3gac/q+4tioAqG1cf9JrT8W1MlhAYQG68e2yMmNeI7FypqqSVLyksw==}
     dependencies:
       cross-fetch: 3.1.5
     transitivePeerDependencies:
@@ -154,8 +154,8 @@ packages:
       - encoding
     dev: false
 
-  /@supabase/realtime-js/2.0.0-rc.5:
-    resolution: {integrity: sha512-0JiSJjoTmwleufGzBQwEVamI047jnAiemBk8qOkgwyoLOlfGTQk8XSA7aT023BsGVgRNKZqp/jJJAVBht/Rd2w==}
+  /@supabase/realtime-js/1.8.0-next.17:
+    resolution: {integrity: sha512-mtL5TAp5v/ZXyfRLqVduqzUnMHmaKHeroZir+efoScNmwy7b4t1pd3xpARcLV24ahtn7ZBKAY8WRiTH2rOtQpQ==}
     dependencies:
       '@types/phoenix': 1.5.4
       websocket: 1.0.34
@@ -163,22 +163,22 @@ packages:
       - supports-color
     dev: false
 
-  /@supabase/storage-js/2.0.0-rc.2:
-    resolution: {integrity: sha512-KovBS7+uJYu8KSvwWPFB6ZPAFFZFnj6s72GvDqhkWpGHIC1OLijYQ9/sRWq2Y+G6HofB8szz4+KLvtyxrgX6AQ==}
+  /@supabase/storage-js/1.8.0-next.6:
+    resolution: {integrity: sha512-7cLxxvCwlUBe0b6DltI/i/EAFE8RxvouL7FIcW8ysyd30+rAOq14BIbuJjx1PForxQzapcBoaZBUHf+x3xyssw==}
     dependencies:
       cross-fetch: 3.1.5
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@supabase/supabase-js/2.0.0-rc.10:
-    resolution: {integrity: sha512-0yjcWm7YnyPcuHl4OOhUkWzyyvFpGeuKdK0x5HKVROApadVcUZEz5/Zng8J32TbmD0nSMhU/IDBYhVfjZrLSYw==}
+  /@supabase/supabase-js/1.36.0-next.29:
+    resolution: {integrity: sha512-0Lc8qOJUudsydSz7M7DkCOhdBXYkqLVUiW6TVPzsBPMlMSmLIIJAvDoMM8cTz2xUNBFTxWWuMJM/VXZ9j0ipkg==}
     dependencies:
-      '@supabase/functions-js': 2.0.0-rc.2
-      '@supabase/gotrue-js': 2.0.0-rc.9
+      '@supabase/functions-js': 1.4.0-next.5
+      '@supabase/gotrue-js': 1.23.1
       '@supabase/postgrest-js': 1.0.0-rc.6
-      '@supabase/realtime-js': 2.0.0-rc.5
-      '@supabase/storage-js': 2.0.0-rc.2
+      '@supabase/realtime-js': 1.8.0-next.17
+      '@supabase/storage-js': 1.8.0-next.6
       cross-fetch: 3.1.5
     transitivePeerDependencies:
       - encoding

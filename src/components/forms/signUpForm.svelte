@@ -11,7 +11,7 @@
   </script>
   
   
-  <!-- html  -->
+  <!-- template  --> 
   <div>
   <div class="card w-96 glass shadow-sm"> 
   
