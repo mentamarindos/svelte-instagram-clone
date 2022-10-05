@@ -2,7 +2,7 @@
 import MockupPhone from "@/components/misc/mockupPhone.svelte";
 import { url } from "@roxi/routify";
     
-let picture = 'https://cutewallpaper.org/21/dancing-gif-transparent-background/Spongebob-Squarepants-Dancing-Sticker-for-iOS-Android-GIPHY.gif';
+let picture = 'https://i.pinimg.com/originals/38/2a/25/382a257e82075d16cec2a597b4ad6f23.gif';
 
 </script>
 
